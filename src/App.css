@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+:root {
+  --primary-color: #900c3f;
+  --primaryRGBA: rgba(0,0,0,0.3);
+  --mainRed: #c70039;
+  --mainGray: #fafafa;
+  --darkGray: #5f5e5e;
+  --darkRed: #511845;
+  --mainWhite: #fff;
+  --mainBlack: #222;
+  --mainTransition: all 0.3s ease-in-out;
+  --mainSpacing: 0.3rem;
+}
+
+.text-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  letter-spacing: var(--mainSpacing);
+  text-transform: capitalize;
+}
+
+.text-main {
+  color: var(--primary-color)
+}
+
+body {
+  font-family: "Open Sans", sans-serif !important; 
+  background: var(--mainGray) !important;
+  color: var(--mainBlack);
+}
